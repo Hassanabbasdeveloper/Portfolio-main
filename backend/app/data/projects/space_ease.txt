@@ -1,0 +1,84 @@
+PROJECT: SpaceEase (Parking Marketplace Platform)
+UNIQUE IDENTIFIERS: Next.js App Router, PostGIS, Prisma ORM, Supabase, Geospatial Search.
+NOT TO BE CONFUSED WITH: Yeet! Chat App (which uses Room/MongoDB).
+CREATORS: Roy Amit, Roi Nir
+TYPE: Full-Stack Web Application (Progressive Web App)
+STATUS: Production (Live at space-ease.vercel.app)
+REPOSITORY: GitHub
+SOURCE MATERIAL: Codebase analysis and README documentation
+
+--- EXECUTIVE SUMMARY ---
+Co-developed with Roi Nir, SpaceEase is a two-sided marketplace connecting property
+owners with underutilized spaces to drivers seeking parking. It handles the full
+lifecycle: discovery via interactive maps, real-time booking, and availability
+management. Originally started as a native Android app, we pivoted to a modern
+web stack for faster iteration and cross-platform reach.
+
+--- ARCHITECTURAL STRATEGY / TECHNICAL APPROACH ---
+
+1. The Platform Pivot (Android → PWA):
+   - **Context:** Initially built as a native Android app in Java; became too rigid
+     for the dynamic, real-time features we needed.
+   - **Solution:** Pivoted to Progressive Web App with Next.js App Router.
+   - **Reasoning:** Didn't fall for the "Sunk Cost Fallacy"—web technologies enabled
+     faster iteration cycles and true cross-platform experience.
+
+2. Geospatial Database with PostGIS:
+   - **Context:** Core requirement was "find parking near me" with radius-based search.
+   - **Solution:** PostgreSQL on Supabase with PostGIS extension for native geospatial
+     queries.
+   - **Reasoning:** PostGIS is best-in-class for location queries; complex radius
+     searches execute in the database layer, not application code.
+
+3. The ORM Migration (Drizzle → Prisma):
+   - **Context:** Started with Drizzle ORM (lightweight), but as schema grew complex
+     (User ↔ Listings ↔ Bookings), lack of community support became a blocker.
+   - **Solution:** Refactored data layer to Prisma ORM.
+   - **Reasoning:** Pragmatic tool evaluation—Prisma's type safety, auto-generated
+     client, and active community solved complexity issues immediately.
+
+4. Real-Time State with TanStack Query + Supabase Subscriptions:
+   - **Context:** Parking availability changes instantly; if User A books a spot,
+     User B must see it vanish from the map immediately.
+   - **Solution:** TanStack Query for caching/background refetch + Supabase real-time
+     subscriptions pushing database changes to clients.
+   - **Reasoning:** Optimistic UI provides snappy feel; real-time sync ensures map
+     is always the source of truth.
+
+--- TECH STACK BREAKDOWN ---
+
+**Frontend (React/Next.js):**
+- **Framework:** Next.js 15 with App Router and Server Components
+- **Language:** TypeScript with strict mode
+- **State:** Zustand (client UI), TanStack Query (server state)
+- **UI:** Tailwind CSS, Shadcn/UI, Framer Motion animations
+- **Maps:** Google Maps Platform with custom markers
+
+**Backend/Data:**
+- **Database:** PostgreSQL via Supabase with PostGIS extension
+- **ORM:** Prisma with type-safe queries
+- **Auth:** Supabase Auth with Google OAuth
+- **Real-time:** Supabase subscriptions for instant updates
+- **APIs:** Next.js API Routes (RESTful)
+
+**Infrastructure:**
+- **Hosting:** Vercel (automatic deployments)
+- **Storage:** Supabase Storage (listing images)
+
+--- KEY FEATURES ---
+- **Geospatial Discovery:** Interactive Google Maps with custom availability markers
+- **Smart Filtering:** Search by location, date range, and availability status
+- **Complete Rental Flow:** Book spots with date/time selection and conflict detection
+- **Dual-Role System:** One account can be both Owner (host) and Driver (renter)
+- **Wallet System:** Track earnings and spending with transaction history
+- **Optimistic UI:** Interface updates immediately, even on slower networks
+- **Dark/Light Theme:** User-customizable with system preference detection
+
+--- ENGINEERING PHILOSOPHY DEMONSTRATED ---
+1. **Pivot When Necessary:** Abandoned Android codebase for web stack when it
+   wasn't serving product needs—avoided Sunk Cost Fallacy.
+2. **Evaluate Tools Pragmatically:** Dropped Drizzle for Prisma based on real-world
+   engineering constraints, not just hype.
+3. **Real-Time First:** Supabase subscriptions + optimistic UI for instant feedback.
+4. **Team Collaboration:** Joint architectural decisions, managed git workflows,
+   built complex features together.

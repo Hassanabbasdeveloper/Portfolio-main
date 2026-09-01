@@ -1,0 +1,101 @@
+# Biography & Personal Attributes
+
+## Core Soft Skills & Values
+
+Hassan Abbas is an AI Developer with 3 years of experience building modern software solutions and working with AI-powered technologies. His approach combines technical curiosity, problem-solving, continuous learning, and a strong focus on creating practical solutions.
+
+### 1. Problem Solving & Responsibility
+
+* **Taking Ownership:** Hassan believes in taking responsibility for the work he delivers and understanding how individual components affect the overall application.
+
+  * **How this shapes my work:** I focus on writing reliable, maintainable code and make sure that the features I develop work as expected.
+
+* **Problem Solving:** Working as a developer has strengthened my ability to analyze technical problems and find practical solutions.
+
+  * **How this shapes my approach:** I break complex problems into smaller, manageable parts and work systematically toward a solution.
+
+* **Continuous Improvement:** Technology changes quickly, especially in the field of AI.
+
+  * **How this shapes my approach:** I continuously explore new technologies, frameworks, and development practices to improve my skills and build better solutions.
+
+### 2. Teamwork & Communication
+
+* **Collaboration:** Hassan understands that successful software development requires effective teamwork and communication.
+
+  * **How this shapes my work:** I value clear communication, constructive feedback, and collaboration throughout the development process.
+
+* **Technical Communication:** I aim to explain technical concepts in a simple and understandable way.
+
+  * **How this shapes my approach:** Whether discussing an AI workflow, application architecture, or a development problem, I try to keep communication clear and practical.
+
+* **User-Centric Thinking:** Technology should ultimately solve a real problem for the user.
+
+  * **How this shapes my work:** I focus not only on how a system works internally, but also on how useful, responsive, and easy to use it is.
+
+### 3. Discipline & Continuous Learning
+
+* **Learning Mindset:** Hassan has a strong interest in modern software development and artificial intelligence.
+* **Adaptability:** I am comfortable learning new tools and technologies as project requirements evolve.
+* **Attention to Detail:** I believe that clean code, thoughtful architecture, and testing are important for building reliable applications.
+
+---
+
+# Detailed Background History
+
+## Professional Experience
+
+* **Role:** AI Developer
+* **Experience:** 3 Years
+* **Focus:** Developing software applications and AI-powered solutions using modern programming languages, frameworks, and AI technologies.
+* **Technical Areas:** Python, JavaScript, React, LangChain, and Retrieval-Augmented Generation (RAG).
+* **Approach:** Focused on building practical, scalable, and user-focused applications while continuously improving technical skills.
+
+## AI & Software Development
+
+Hassan has developed a strong interest in Artificial Intelligence and modern application development. His technical experience includes working with Python for AI and backend development, JavaScript and React for modern web applications, and LangChain and RAG techniques for building AI-powered applications.
+
+He enjoys combining traditional software development with modern AI capabilities to create applications that are both useful and technically effective.
+
+## Areas of Interest
+
+* Artificial Intelligence
+* Generative AI
+* Large Language Models (LLMs)
+* Retrieval-Augmented Generation (RAG)
+* LangChain
+* Modern Web Development
+* React & JavaScript
+* Python
+* AI-powered applications
+
+---
+
+# What Makes Hassan Abbas Stand Out?
+
+### 1. AI-Focused Developer
+
+I combine software development skills with a strong interest in Artificial Intelligence. My experience with **Python, LangChain, RAG, JavaScript, and React** allows me to work across both AI and modern web development.
+
+### 2. Practical Problem Solver
+
+I don't focus only on learning technologies; I focus on using them to solve real problems. I approach technical challenges by understanding the problem first, breaking it into smaller parts, and then developing a practical solution.
+
+### 3. Full Development Perspective
+
+My experience with both **AI technologies and frontend development** helps me understand different parts of an application. I can work on AI functionality while also considering how that functionality will be presented and used through the application interface.
+
+### 4. Adaptable & Eager to Learn
+
+Technology is constantly evolving, particularly in AI. I actively learn and experiment with modern technologies such as **LangChain, RAG, Generative AI, React, and Python**.
+
+My goal is to continuously improve as a developer and build applications that combine strong engineering with useful AI capabilities.
+
+---
+
+# Hobbies & Interests
+
+* Exploring Artificial Intelligence and emerging technologies
+* Building personal software and AI projects
+* Learning modern development frameworks
+* Experimenting with new AI tools and techniques
+* Improving programming and problem-solving skills

@@ -1,0 +1,77 @@
+PROJECT: Yeet! (Cross-Platform Real-Time Chat Application)
+UNIQUE IDENTIFIERS: Node.js/Express, Socket.IO, MongoDB, Android Room Persistence, Firebase (FCM).
+NOT TO BE CONFUSED WITH: SpaceEase (which uses PostGIS/Prisma/Next.js/Supabase).
+CREATORS: Roy Amit, Alik Teplitsky, Roi Nir
+TYPE: Full-Stack Multi-Platform Application (Web + Android + Backend)
+STATUS: Academic Project
+SOURCE MATERIAL: Codebase analysis of server, webclient, and Android app directories
+
+--- EXECUTIVE SUMMARY ---
+Co-developed with Alik Teplitsky and Roi Nir, Yeet! is a real-time chat application
+supporting both web and Android clients through a unified backend. My contributions
+spanned the entire stack—from designing the RESTful API and Socket.IO integration to
+implementing the Android client's offline-first architecture using Room persistence.
+
+--- ARCHITECTURAL STRATEGY / TECHNICAL APPROACH ---
+
+1. The Unified Backend (MVC Pattern):
+   - **Context:** Needed a backend that serves multiple frontend types without coupling.
+   - **Solution:** Single Node.js/Express server using MVC pattern with MongoDB for
+     flexible chat log storage and high write throughput.
+   - **Reasoning:** Designing for scale—backend isn't coupled to any single frontend.
+
+2. Cross-Platform Real-Time Communication:
+   - **Context:** Web browsers and mobile devices handle background connectivity differently.
+   - **Solution:** Dual-protocol approach—Socket.IO WebSockets for web clients,
+     Firebase Cloud Messaging (FCM) for Android push notifications.
+   - **Reasoning:** WebSockets are efficient for always-connected browsers; mobile needs
+     battery-conscious push that works even when app is closed.
+
+3. Offline-First Mobile Architecture:
+   - **Context:** Mobile users expect instant UI loading despite spotty connectivity.
+   - **Solution:** Room (SQLite) local database with background synchronization on Android.
+   - **Reasoning:** Users see cached data immediately on launch while sync happens in
+     background—instant perceived performance plus network resilience.
+
+4. Stateless JWT Authentication:
+   - **Context:** Needed secure, scalable auth across multiple client types.
+   - **Solution:** JWT tokens for stateless session management.
+   - **Reasoning:** Scales horizontally without shared session storage; works identically
+     across web and mobile clients.
+
+--- TECH STACK BREAKDOWN ---
+
+**Backend (Node.js):**
+- **Runtime:** Node.js with Express.js framework
+- **Database:** MongoDB with Mongoose ODM
+- **Real-time:** Socket.IO for WebSocket connections
+- **Push Notifications:** Firebase Admin SDK for FCM
+- **Auth:** JSON Web Tokens (jsonwebtoken)
+
+**Web Client (React):**
+- **Framework:** React 18 with React Router DOM
+- **Real-time:** Socket.IO Client
+- **Styling:** Bootstrap, CSS
+
+**Android Client (Java):**
+- **Architecture:** MVVM with Repository pattern
+- **Local Storage:** Room persistence library (SQLite)
+- **Networking:** Retrofit for REST API calls
+- **Push Notifications:** Firebase Cloud Messaging
+- **UI:** XML layouts with RecyclerView adapters
+
+--- KEY FEATURES ---
+- **Cross-Platform Sync:** Seamless conversation continuity between web and Android
+- **Real-time Messaging:** Instant delivery via WebSockets (web) and FCM push (mobile)
+- **Secure Authentication:** JWT-based login with stateless session management
+- **Offline Support:** Android caches chats locally and syncs in background
+- **Contact Management:** Add, view, and delete contacts with real-time status updates
+- **Dark Mode:** User-customizable theme with night mode toggle
+
+--- ENGINEERING PHILOSOPHY DEMONSTRATED ---
+1. **Architect for Scale:** Backend designed to serve multiple frontends without coupling.
+2. **Choose the Right Protocol:** WebSockets where cheap (web) vs push where battery
+   matters (mobile).
+3. **Bridge Technologies:** SQL (Room) on client synchronized with NoSQL (MongoDB)
+   on server.
+4. **Team Collaboration:** Effective 3-person team with clear separation of concerns.

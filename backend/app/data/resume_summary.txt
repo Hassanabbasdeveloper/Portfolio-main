@@ -1,0 +1,168 @@
+# Hassan Abbas - Resume Summary
+
+This document contains detailed information about my experience, skills, education, and professional interests to help answer questions about my background and expertise.
+
+---
+
+## Contact Information
+
+* **Name:** Hassan Abbas
+* **Role:** AI Developer
+* **Experience:** 3 Years
+* **GitHub:** Available on my GitHub profile
+* **LinkedIn:** Available on my LinkedIn profile
+
+---
+
+## Professional Experience
+
+### AI Developer
+
+**Duration:** 3 Years
+
+**Responsibilities & Expertise:**
+
+* Develop AI-powered applications and software solutions.
+* Work with Python for AI and application development.
+* Build modern web applications using React and JavaScript.
+* Develop AI workflows using LangChain.
+* Implement Retrieval-Augmented Generation (RAG) solutions.
+* Integrate AI capabilities into practical software applications.
+* Focus on writing clean, maintainable, and reliable code.
+* Continuously explore modern AI technologies and development tools.
+
+**Technologies Used:**
+
+Python, JavaScript, React, LangChain, RAG, Artificial Intelligence, Generative AI, LLM-based applications.
+
+---
+
+## Education
+
+### Computer Science & Software Development
+
+I have developed a strong technical foundation through my experience in software development and continuous learning.
+
+My technical growth has focused on programming, web development, artificial intelligence, and modern software engineering practices.
+
+### Key Areas of Knowledge
+
+* Programming fundamentals
+* Software development
+* Web development
+* Artificial Intelligence
+* Python development
+* JavaScript development
+* AI application development
+* Problem solving and logical thinking
+
+---
+
+## Technical Skills & Expertise
+
+I organize my technical toolkit around the technologies I use to build modern web and AI-powered applications.
+
+### 1. Artificial Intelligence & RAG
+
+* **Core Stack:** Python, LangChain, RAG, LLMs, Generative AI.
+* **Application:** I build AI-powered applications that can process information, retrieve relevant context, and generate useful responses.
+* **Focus:** My interest is in creating practical AI solutions rather than simply experimenting with AI technologies.
+
+### 2. Modern Web Development
+
+* **Core Stack:** React, JavaScript.
+* **Application:** I use modern frontend technologies to build interactive and user-friendly web applications.
+* **Focus:** I care about clean interfaces, responsive experiences, and connecting frontend applications with intelligent backend functionality.
+
+### 3. Software Development & Problem Solving
+
+* **Programming:** Python and JavaScript.
+* **Development:** AI applications, web applications, APIs, and modern software solutions.
+* **Approach:** I focus on writing understandable, maintainable code and solving problems systematically.
+
+---
+
+## Current Learning & Growth
+
+### Currently Exploring
+
+I am continuously expanding my knowledge in Artificial Intelligence and modern software development.
+
+Areas of interest include:
+
+* Generative AI
+* Large Language Models (LLMs)
+* Advanced RAG systems
+* LangChain
+* AI Agents
+* Modern React development
+* Advanced Python development
+* AI-powered web applications
+
+### Professional Goals
+
+* Build meaningful AI-powered products.
+* Become a stronger AI and software developer.
+* Develop scalable and reliable AI applications.
+* Continue learning modern AI technologies.
+* Work on challenging real-world software problems.
+* Create solutions that provide genuine value to users.
+
+---
+
+## Unique Value Proposition — The "Stand Out" Factor
+
+### 1. AI-Focused Development
+
+I focus on combining software development with Artificial Intelligence. My experience with **Python, LangChain, RAG, React, and JavaScript** allows me to build applications that combine intelligent functionality with modern user interfaces.
+
+### 2. Practical Approach to AI
+
+I believe AI should be used to solve real problems. Rather than focusing only on theoretical concepts, I enjoy building practical applications using technologies such as **LangChain, RAG, and LLMs**.
+
+### 3. Full-Stack Perspective
+
+My experience across both AI and frontend development allows me to understand how different parts of an application work together.
+
+I can work with AI functionality while also considering how that functionality is presented through a modern web interface.
+
+### 4. Self-Motivated & Adaptable
+
+AI is developing rapidly, so continuous learning is an important part of my development journey. I actively explore new frameworks, tools, and techniques to improve my skills and stay up to date with modern technology.
+
+---
+
+## Key Strengths
+
+* AI application development
+* Python development
+* LangChain
+* Retrieval-Augmented Generation (RAG)
+* Generative AI
+* React development
+* JavaScript
+* Modern web development
+* Problem-solving mindset
+* Clean and maintainable code
+* Continuous learning
+* Adaptability
+* Team collaboration
+
+---
+
+## Career Highlights
+
+1. **Professional Experience:** 3 years of experience in software and AI development.
+2. **AI Development:** Experience building applications using Python, LangChain, RAG, and modern AI technologies.
+3. **Web Development:** Experience developing modern web applications using React and JavaScript.
+4. **AI + Web Integration:** Ability to combine AI functionality with modern frontend applications.
+5. **Continuous Growth:** Actively learning and experimenting with emerging AI technologies.
+6. **Practical Projects:** Building AI and web development projects to strengthen real-world development skills.
+
+---
+
+## Professional Identity
+
+I am an **AI Developer** with 3 years of experience in software development and a strong interest in Artificial Intelligence. My technical skill set includes **Python, LangChain, RAG, React, and JavaScript**.
+
+I enjoy building practical AI-powered applications and modern web experiences. My goal is to continue growing as an AI developer while creating reliable, useful, and innovative software solutions.
